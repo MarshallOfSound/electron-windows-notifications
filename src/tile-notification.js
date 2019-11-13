@@ -1,5 +1,5 @@
-const xml = require('@nodert-win10-au/windows.data.xml.dom')
-const notifications = require('@nodert-win10-au/windows.ui.notifications')
+const xml = require('@nodert-win10-rs3/windows.data.xml.dom')
+const notifications = require('@nodert-win10-rs3/windows.ui.notifications')
 const util = require('util')
 const xmlEscape = require('xml-escape')
 

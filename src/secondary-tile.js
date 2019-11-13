@@ -30,8 +30,8 @@ class SecondaryTile {
    * @memberOf SecondaryTile
    */
   constructor (options = {}) {
-    StartScreen = StartScreen || require('@nodert-win10-au/windows.ui.startscreen')
-    Foundation = Foundation || require('@nodert-win10-au/windows.foundation')
+    StartScreen = StartScreen || require('@nodert-win10-rs3/windows.ui.startscreen')
+    Foundation = Foundation || require('@nodert-win10-rs3/windows.foundation')
 
     const tileId = this._validateTileId(options._validateTileId)
     const displayName = options.displayName || ''
